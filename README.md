@@ -11,21 +11,26 @@
 This is a spreadsheet that helps to estimate a number of servers and their configuration while sizing [Aerospike](http://www.aerospike.com) according to the [official documentation](http://www.aerospike.com/docs/operations/plan/capacity/).
 
 ### How to use?
-
-Just start playing with *INPUT* paratemers and look at how the number of required servers, their configuration as well as different kinds of overhead change.
+Just start playing with **INPUT** paratemers and look at how the number of required servers, their configuration as well as different kinds of overhead change.
 
 #### Input parameters are balanced
+Input parameters are considered to be **balanced** if the number of required servers is the same for both RAM as well as SSD.
 
 
-Input parameters are considered to be *balanced* if the number of required servers is the same for both RAM as well as SSD.
+![Alt Text](https://raw.githubusercontent.com/szhem/aerospike-sizing/master/images/aerospike_sizing_green.png)
 
 #### Input parameters are slightly unbalanced
+Input parameters are considered to be **slightly unbalanced** if the difference between the number of required servers for RAM and SSD is one.
 
-Input parameters are considered to be *slightly unbalanced* if the difference between the number of required servers for RAM and SSD is one.
+
+![Alt Text](https://raw.githubusercontent.com/szhem/aerospike-sizing/master/images/aerospike_sizing_yellow.png)
+
 
 #### Input parameters are unbalanced
+Input parameters are considered to be **unbalanced** if the difference between the number of reuired servers for RAM and SSD is more than one.
 
-Input parameters are considered to be *unbalanced* if the difference between the number of reuired servers for RAM and SSD is more than one.
+
+![Alt Text](https://raw.githubusercontent.com/szhem/aerospike-sizing/master/images/aerospike_sizing_red.png)
 
 ### License
 
