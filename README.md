@@ -17,20 +17,20 @@ Just start playing with **INPUT** paratemers and look at how the number of requi
 Input parameters are considered to be **balanced** if the number of required servers is the same for both RAM as well as SSD.
 
 
-![Alt Text](https://raw.githubusercontent.com/szhem/aerospike-sizing/master/images/aerospike_sizing_green.png)
+![Alt Text](https://raw.githubusercontent.com/cleverdata/aerospike-sizing/master/images/aerospike_sizing_green.png)
 
 #### Input parameters are slightly unbalanced
 Input parameters are considered to be **slightly unbalanced** if the difference between the number of required servers for RAM and SSD is one.
 
 
-![Alt Text](https://raw.githubusercontent.com/szhem/aerospike-sizing/master/images/aerospike_sizing_yellow.png)
+![Alt Text](https://raw.githubusercontent.com/cleverdata/aerospike-sizing/master/images/aerospike_sizing_yellow.png)
 
 
 #### Input parameters are unbalanced
 Input parameters are considered to be **unbalanced** if the difference between the number of reuired servers for RAM and SSD is more than one.
 
 
-![Alt Text](https://raw.githubusercontent.com/szhem/aerospike-sizing/master/images/aerospike_sizing_red.png)
+![Alt Text](https://raw.githubusercontent.com/cleverdata/aerospike-sizing/master/images/aerospike_sizing_red.png)
 
 ### License
 
